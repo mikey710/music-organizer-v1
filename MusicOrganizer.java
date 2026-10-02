@@ -58,5 +58,15 @@ public class MusicOrganizer
         if(index >= 0 && index < files.size()) {
             files.remove(index);
         }
+        else {
+            // Valid index is between 0 & 1.
+        }
     }
+   
+    public void checkindex(int index)
+    {   
+        if(index > 0 && index < files.size()){
+            files.get(index);
+        }
+    } 
 }
